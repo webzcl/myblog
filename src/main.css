@@ -84,3 +84,44 @@ footer a:last-child{
   color: #fff;
   text-decoration: none;
 }
+.blog-card{
+  width: 96%;
+  margin: 10px auto;
+  bottom: 1px solid #000;
+  color: #fff;
+}
+.blog-index{
+  background-color: #7dbcea;
+  text-align: center;
+  line-height: 2.4;
+}
+.blog-desc h3{
+  border-bottom: 10px;
+}
+.blog-desc{
+  padding: 10px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  color: #777;
+  position: relative;
+}
+.blog-desc p{
+  font-size: 14px;
+  opacity: 0.8;
+}
+.blog-desc a{
+  padding: 5px 10px;
+  background-color: deeppink;
+  display: block;
+  color: #fff;
+  width: 6em;
+  text-align: center;
+  border-radius: 5%;
+  text-decoration: none;
+
+}
+.blog-desc span{
+  float: right;
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
