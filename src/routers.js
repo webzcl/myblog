@@ -1,6 +1,6 @@
 import React from 'react';
-import App from './App';
 import {Router,Route,hashHistory,IndexRoute} from 'react-router';
+import App from './App';
 import Home from './components/Home';
 import Blog from './components/Blog';
 import Work from './components/Work';
